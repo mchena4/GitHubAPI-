@@ -26,16 +26,15 @@ Make sure you have the following installed on your system:
 
 - [Entity Framework Core Tools](https://learn.microsoft.com/en-us/ef/core/cli/dotnet) installed globally. If you don't have them, run:
 
-``bash
 dotnet tool install --global dotnet-ef
 
 ## Create SQLite database
-- dotnet ef database update
+dotnet ef database update
 
 ## Run application
-- dotnet run
+dotnet run
 
  ## Open Swagger to view API endpoints
- - http://localhost:5xxx/swagger
+http://localhost:5xxx/swagger
 
 Developed with ❤️ to learn and build. 
